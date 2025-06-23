@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { fadeInUp, mouseParallax } from '../../utils/gsapConfig'
+import Typewriter from 'typewriter-effect'
 
 const Hero = () => {
   const heroRef = useRef(null)
@@ -101,6 +102,33 @@ const Hero = () => {
         >
           <span className="block text-gradient mb-4">DEVELOPERS'</span>
           <span className="block text-white mb-4">SOCIETY</span>
+          
+        </div>
+        <div
+          ref={subtitleRef}
+          className="flex items-center justify-center gap-2 text-xl sm:text-2xl lg:text-3xl font-semibold text-muted-foreground mb-6 min-h-[2.5rem]"
+        >
+          <span>Specializing in</span>
+          <span className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl">
+            <Typewriter
+              options={{
+                strings: [
+                  'App Development',
+                  'Web Development',
+                  'UI/UX and Design',
+                  'Game Development',
+                  'AI/ML',
+                  'SysCall',
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 80,
+                deleteSpeed: 40,
+                cursor: '|',
+                wrapperClassName : "text-white font-semibold text-2xl md:text-3xl lg:text-4xl"
+              }}
+            />
+          </span>
         </div>
         
         <p 
