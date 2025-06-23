@@ -108,8 +108,8 @@ const Hero = () => {
           ref={subtitleRef}
           className="flex items-center justify-center gap-2 text-xl sm:text-2xl lg:text-3xl font-semibold text-muted-foreground mb-6 min-h-[2.5rem]"
         >
-          <span>Specializing in</span>
-          <span className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl">
+          <span>Diving into</span>
+          <span className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl font-sour-gummy">
             <Typewriter
               options={{
                 strings: [
