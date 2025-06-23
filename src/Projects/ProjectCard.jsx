@@ -139,7 +139,7 @@ const ProjectCard = ({ project ,index}) => {
       </div>
       
       {/* Content */}
-      <h3 className={`text-2xl font-orbitron font-bold mb-4 ${colors.text}`}>
+      <h3 className={`text-2xl font-lexend font-bold mb-4 ${colors.text}`}>
         {project.title}
       </h3>
       

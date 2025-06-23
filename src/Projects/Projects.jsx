@@ -130,7 +130,7 @@ const Projects = () => {
       <div className="container mx-auto px-6 relative z-10">
         <h2
           ref={titleRef}
-          className="text-5xl md:text-6xl font-orbitron font-bold text-center text-gradient mb-16"
+          className="text-5xl md:text-6xl font-lexend font-bold text-center text-gradient mb-16"
         >
           Our Projects
         </h2>

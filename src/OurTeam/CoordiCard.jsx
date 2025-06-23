@@ -140,7 +140,7 @@ const CoordiCard = ({ coordi, index }) => {
           className="w-full h-full object-cover"
         />
       </div>
-      <h3 className={`text-xl font-bold font-orbitron mb-1 ${colors.text}`}>{coordi.name}</h3>
+      <h3 className={`text-xl font-bold font-lexend mb-1 ${colors.text}`}>{coordi.name}</h3>
       <p className={`text-white/60 font-rajdhani mb-2 ${colors.text}`}>{coordi.role}</p>
       <div className="flex justify-center gap-4 text-lg mt-2 border">
         {coordi.social?.linkedin && (
