@@ -16,26 +16,26 @@ const Coordis = () => {
     {
       name: "Padmanabhan Sridhar",
       role: "Chief Coordinator",
-      image: "/team/ananya.jpg",
+      image: "/team/Padmanabhan.jpeg",
       color: "cyber-purple",
     },
     {
       name: "Priyanshu Talwar",
       role: "AI/ML Head and Sub Coordinator",
-      image: "/team/aditi.jpg",
+      image: "/team/Priyanshu.jpeg",
       color: "cyber-pink",
       social: { linkedin: "", github: "" },
     },
     {
       name: "Arjav Patel",
       role: "App Dev Head",
-      image: "/team/rohan.jpg",
+      image: "/team/Arjav.jpeg",
       color: "cyber-purple",
     },
     {
       name: "Sai Sridhar",
       role: "Web Dev Head",
-      image: "/team/sridhar.jpg",
+      image: "/team/Sai.jpeg",
       color: "cyber-cyan",
       social: {
         linkedin: "https://linkedin.com/in/saisridhar",
@@ -45,19 +45,19 @@ const Coordis = () => {
     {
       name: "Anirban Deshmukh",
       role: "Game Dev Head",
-      image: "/team/priya.jpg",
+      image: "/team/Anirban.jpeg",
       color: "cyber-pink",
     },
     {
       name: "Siya Goel",
       role: "UI/UX Head",
-      image: "/team/kabir.jpg",
+      image: "/team/Siya.jpeg",
       color: "cyber-purple",
     },
     {
       name: "Shaunak Aghor",
-      role: "SysCall Project Head",
-      image: "/team/yash.jpg",
+      role: "Project SysCall Head",
+      image: "/team/Shaunak.jpeg",
       color: "cyber-syan",
     },
   ];
