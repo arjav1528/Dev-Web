@@ -70,7 +70,7 @@ const Navigation = () => {
               className="w-12 h-12 object-contain bg-transparent gradient-to-r from-cyber-cyan to-white rounded-lg shadow-cyber transition-transform duration-300 hover:scale-110 animate-pulse"
             />
             <span className="text-3xl font-sour-gummy font-bold text-gradient">
-              DEVSOC
+              DevSoc
             </span>
           </div>
           

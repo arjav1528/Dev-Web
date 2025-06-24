@@ -215,7 +215,7 @@ const About = () => {
               ref={titleRef}
               className="text-5xl md:text-6xl lg:text-7xl font-lexend font-bold"
             >
-              <span className="text-gradient">About DEVSOC</span>
+              <span className="text-gradient">About DevSoc</span>
             </h2>
 
             <div ref={textRef} className="space-y-6">
@@ -224,7 +224,7 @@ const About = () => {
                 has evolved over the years to include proficient developers
                 specializing in various fields such as App Development, Web
                 Development, Game Development, UI/UX Designing, Artificial
-                Intelligence and Machine Learning. We are a vibrant community of
+                Intelligence and Machine Learning and Systems Calling. We are a vibrant community of
                 passionate developers driven by a shared love for coding and
                 technology.
               </p>
