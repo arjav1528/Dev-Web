@@ -18,7 +18,7 @@ const Verticals = () => {
         "Building responsive and dynamic web applications using cutting-edge technologies like React, Vue, and modern frameworks.",
       icon: "🌐",
       color: "cyber-cyan",
-      technologies: ["React", "Vue.js", "Node.js", "TypeScript"],
+      technologies: ["React", "Next.js", "Node.js", "TypeScript"],
     },
     {
       id: "app",
@@ -27,7 +27,7 @@ const Verticals = () => {
         "Creating innovative mobile solutions for iOS and Android platforms with React Native and Flutter.",
       icon: "📱",
       color: "cyber-purple",
-      technologies: ["React Native", "Flutter", "Swift", "Kotlin"],
+      technologies: ["Flutter","Firebase","React Native"],
     },
     {
       id: "ai",
@@ -54,7 +54,7 @@ const Verticals = () => {
         "Designing user-friendly interfaces and experiences with a focus on usability and aesthetics.",
       icon: "🎨",
       color: "cyber-cyan",
-      technologies: ["Figma", "Adobe XD", "Sketch", "InVision"],
+      technologies: ["Figma", "Canva", "InVision"],
     },
     {
       id: "sys",
