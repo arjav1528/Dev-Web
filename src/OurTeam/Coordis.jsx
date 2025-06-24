@@ -14,14 +14,10 @@ const Coordis = () => {
 
   const team = [
     {
-      name: "Sai Sridhar",
-      role: "Web Dev Head",
-      image: "/team/sridhar.jpg",
-      color: "cyber-cyan",
-      social: {
-        linkedin: "https://linkedin.com/in/saisridhar",
-        github: "https://github.com/saisridhar",
-      },
+      name: "Padmanabhan Sridhar",
+      role: "Chief Coordinator",
+      image: "/team/ananya.jpg",
+      color: "cyber-purple",
     },
     {
       name: "Priyanshu Talwar",
@@ -37,6 +33,16 @@ const Coordis = () => {
       color: "cyber-purple",
     },
     {
+      name: "Sai Sridhar",
+      role: "Web Dev Head",
+      image: "/team/sridhar.jpg",
+      color: "cyber-cyan",
+      social: {
+        linkedin: "https://linkedin.com/in/saisridhar",
+        github: "https://github.com/saisridhar",
+      },
+    },
+    {
       name: "Anirban Deshmukh",
       role: "Game Dev Head",
       image: "/team/priya.jpg",
@@ -46,12 +52,6 @@ const Coordis = () => {
       name: "Siya Goel",
       role: "UI/UX Head",
       image: "/team/kabir.jpg",
-      color: "cyber-purple",
-    },
-    {
-      name: "Padmanabhan Sridhar",
-      role: "Chief Coordinator",
-      image: "/team/ananya.jpg",
       color: "cyber-purple",
     },
     {
@@ -147,7 +147,7 @@ const Coordis = () => {
       <div className="container mx-auto px-6 relative z-10">
         <h2
           ref={titleRef}
-          className="text-5xl md:text-6xl font-orbitron font-bold text-center text-gradient mb-16"
+          className="text-5xl md:text-6xl font-lexend font-bold text-center text-gradient mb-16"
         >
           Our Team
         </h2>

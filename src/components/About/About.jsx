@@ -213,7 +213,7 @@ const About = () => {
           <div className="space-y-12">
             <h2
               ref={titleRef}
-              className="text-5xl md:text-6xl lg:text-7xl font-orbitron font-bold"
+              className="text-5xl md:text-6xl lg:text-7xl font-lexend font-bold"
             >
               <span className="text-gradient">About DEVSOC</span>
             </h2>
@@ -243,7 +243,7 @@ const About = () => {
             {/* Stats */}
             <div ref={statsRef} className="grid grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="stat-number1 text-4xl md:text-5xl font-orbitron font-bold text-cyber-cyan mb-2">
+                <div className="stat-number1 text-4xl md:text-5xl font-lexend font-bold text-cyber-cyan mb-2">
                   500<p>+</p>
                 </div>
                 <div className="text-white/60 font-rajdhani font-medium">
@@ -251,7 +251,7 @@ const About = () => {
                 </div>
               </div>
               <div className="text-center">
-                <div className="stat-number2 text-4xl md:text-5xl font-orbitron font-bold text-cyber-cyan mb-2">
+                <div className="stat-number2 text-4xl md:text-5xl font-lexend font-bold text-cyber-cyan mb-2">
                   50<p>+</p>
                 </div>
                 <div className="text-white/60 font-rajdhani font-medium">
@@ -259,7 +259,7 @@ const About = () => {
                 </div>
               </div>
               <div className="text-center">
-                <div className="stat-number3 text-4xl md:text-5xl font-orbitron font-bold text-cyber-cyan mb-2">
+                <div className="stat-number3 text-4xl md:text-5xl font-lexend font-bold text-cyber-cyan mb-2">
                   10+<p>+</p>
                 </div>
                 <div className="text-white/60 font-rajdhani font-medium">

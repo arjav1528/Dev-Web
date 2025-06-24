@@ -188,7 +188,7 @@ const Contact = () => {
         <div className="text-center max-w-4xl mx-auto">
           <h2
             ref={titleRef}
-            className="text-5xl md:text-6xl lg:text-7xl font-orbitron font-bold mb-16"
+            className="text-5xl md:text-6xl lg:text-7xl font-lexend font-bold mb-16"
           >
             <span className="text-gradient">Contact Us</span>
           </h2>
@@ -223,7 +223,7 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="space-y-8">
-              <h3 className="text-2xl font-orbitron font-semibold text-white/80 mb-8">
+              <h3 className="text-2xl font-lexend font-semibold text-white/80 mb-8">
                 Connect With Us
               </h3>
 

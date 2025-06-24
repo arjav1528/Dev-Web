@@ -170,7 +170,7 @@ const Verticals = () => {
       <div className="container mx-auto px-6 relative z-10">
         <h2
           ref={titleRef}
-          className="text-5xl md:text-6xl lg:text-7xl font-orbitron font-bold text-center mb-20"
+          className="text-5xl md:text-6xl lg:text-7xl font-lexend font-bold text-center mb-20"
         >
           <span className="text-gradient">Our Verticals</span>
         </h2>
