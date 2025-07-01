@@ -22,7 +22,7 @@ export default {
       fontFamily: {
         orbitron: ["Orbitron", "monospace"],
         rajdhani: ["Rajdhani", "sans-serif"],
-        "sour-gummy": ['"Sour Gummy"', "sans-serif"],
+        "vt323": ['"VT323"', "monospace"],
       },
       animation: {
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
