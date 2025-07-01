@@ -69,7 +69,7 @@ const Navigation = () => {
               alt="DevSoc Logo"
               className="w-12 h-12 object-contain bg-transparent gradient-to-r from-cyber-cyan to-white rounded-lg shadow-cyber transition-transform duration-300 hover:scale-110 animate-pulse"
             />
-            <span className="text-3xl font-sour-gummy font-bold text-gradient">
+            <span className="text-3xl font-vt323 font-bold text-gradient">
               DevSoc
             </span>
           </div>
@@ -87,7 +87,7 @@ const Navigation = () => {
                 <a
                   href={item.target}
                   onClick={(e) => handleNavClick(e, item.target)}
-                  className="text-white/80 hover:text-cyber-cyan transition-colors duration-300 font-sour-gummy font-medium text-lg relative group"
+                  className="text-white/80 hover:text-cyber-cyan transition-colors duration-300 font-vt323 font-medium text-lg relative group"
                 >
                   {item.label}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-cyber-cyan to-white group-hover:w-full transition-all duration-300"></span>

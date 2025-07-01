@@ -166,7 +166,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-6xl bg-transparent">
         <div
           ref={subtitleRef}
-          className="font-sour-gummy font-black text-6xl md:text-8xl lg:text-9xl mb-20 leading-none"
+          className="font-vt323 font-black text-6xl md:text-8xl lg:text-9xl mb-20 leading-none"
         >
           <span className="block text-gradient mb-4 drop-shadow-lg">DEVELOPERS'</span>
           <span className="block text-white mb-4 drop-shadow-lg">SOCIETY</span>
@@ -176,7 +176,7 @@ const Hero = () => {
           className="flex items-center justify-center gap-2 text-xl sm:text-2xl lg:text-3xl font-semibold text-muted-foreground mb-6 min-h-[2.5rem]"
         >
           <span>Diving into</span>
-          <span className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl font-sour-gummy">
+          <span className="text-white font-semibold text-2xl md:text-3xl lg:text-4xl font-vt323">
             <Typewriter
               options={{
                 strings: [
@@ -201,7 +201,7 @@ const Hero = () => {
         
         <p 
           ref={descriptionRef}
-          className="text-xl md:text-2xl lg:text-3xl text-white/80 font-sour-gummy font-light mb-12 max-w-3xl mx-auto drop-shadow-lg"
+          className="text-xl md:text-2xl lg:text-3xl text-white/80 font-vt323 font-light mb-12 max-w-3xl mx-auto drop-shadow-lg"
         >
           Shaping the Future of Technology Through Innovation and Collaboration
         </p>
