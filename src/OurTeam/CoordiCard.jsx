@@ -49,38 +49,41 @@ const CoordiCard = ({ coordi, index }) => {
       tiltMaxAngleX={15}
       tiltMaxAngleY={15}
       transitionSpeed={250}
-      className={`relative glass-card p-8 cursor-pointer group transition-all duration-300 ${colors.border} ${colors.glow}`}
+      className={`relative glass-card p-0 cursor-pointer group transition-all duration-300 overflow-hidden ${colors.border} ${colors.glow}`}
       style={{
         willChange: 'transform',
         gridColumn: index === 2 ? 'span 1' : 'span 1',
-        gridRow: index === 2 ? 'span 1' : 'span 1'
+        gridRow: index === 2 ? 'span 1' : 'span 1',
+        minHeight: '320px',
+        minWidth: '220px',
       }}
     >
-      {/* Glow effect */}
-      <div
-        className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent opacity-0 rounded-xl pointer-events-none"
-      ></div>
-      
-      <div className={`w-24 h-24 mx-auto rounded-full overflow-hidden border mb-4 ${colors.border}`}>
-        <img
-          src={coordi.image}
-          alt={coordi.name}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <h3 className={`text-xl font-bold font-lexend mb-1 ${colors.text}`}>{coordi.name}</h3>
-      <p className={`text-white/60 font-rajdhani mb-2 ${colors.text}`}>{coordi.role}</p>
-      <div className="flex justify-center gap-4 text-lg mt-2 border">
-        {coordi.social?.linkedin && (
-          <a href={coordi.social.linkedin} target="_blank" rel="noreferrer">
-            <i className="fab fa-linkedin-in text-white/80 hover:text-white"></i>
-          </a>
-        )}
-        {coordi.social?.github && (
-          <a href={coordi.social.github} target="_blank" rel="noreferrer">
-            <i className="fab fa-github text-white/80 hover:text-white"></i>
-          </a>
-        )}
+      {/* Full background image */}
+      <img
+        src={coordi.image}
+        alt={coordi.name}
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      />
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black/60 z-10 transition group-hover:bg-black/40"></div>
+      {/* Card content */}
+      <div className="relative z-20 w-full flex flex-col items-center text-center px-6 pb-6 pt-12 h-full justify-end">
+        <div className="w-full">
+          <h3 className={`text-2xl font-bold font-lexend mb-1 text-white drop-shadow ${colors.text}`}>{coordi.name}</h3>
+          <p className={`text-white/80 font-rajdhani mb-4 text-base drop-shadow ${colors.text}`}>{coordi.role}</p>
+          <div className="flex justify-center gap-4 text-lg mt-2">
+            {coordi.social?.linkedin && (
+              <a href={coordi.social.linkedin} target="_blank" rel="noreferrer">
+                <i className="fab fa-linkedin-in text-white/90 hover:text-white"></i>
+              </a>
+            )}
+            {coordi.social?.github && (
+              <a href={coordi.social.github} target="_blank" rel="noreferrer">
+                <i className="fab fa-github text-white/90 hover:text-white"></i>
+              </a>
+            )}
+          </div>
+        </div>
       </div>
     </Tilt>
   );
