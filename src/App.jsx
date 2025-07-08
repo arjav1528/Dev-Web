@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App relative">
-      <Cursor />
+      {/* <Cursor /> */}
       <Navigation />
       <ParticleSystem />
       

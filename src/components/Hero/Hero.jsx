@@ -186,7 +186,6 @@ const Hero = () => {
                   'Web Development',
                   'Game Development',
                   'UI/UX and Design',
-                  'SysCall',
                 ],
                 autoStart: true,
                 loop: true,

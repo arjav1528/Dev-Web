@@ -49,7 +49,7 @@ const Verticals = () => {
     },
     {
       id: "UXUI",
-      title: "UX/UI Design",
+      title: "UI/UX & Design",
       description:
         "Designing user-friendly interfaces and experiences with a focus on usability and aesthetics.",
       icon: "🎨",
